@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Bahnschrift, serif;
+
+}
+
+header{
+    padding: 1% 10%;
+    background-color: #e4c1f9;
+}
+
+.Top{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black solid 1px;
+    margin: 0 0 20px 0;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.Header-Content{
+    display: flex;
+    flex: 1;
+}
+/*.Header-Text{*/
+/*    display: flex;*/
+/*    border: 1px solid black;*/
+/*    width: 50%;*/
+/*}*/
+/*.Placeholder-Image{*/
+/*    display: flex;*/
+/*}*/
