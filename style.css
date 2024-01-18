@@ -1,20 +1,24 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Bahnschrift, serif;
 
 }
 
-header{
-    padding: 1% 10%;
-    background-color: #e4c1f9;
+header {
+    padding: 5px 10%;
+    background-color: #7FC7D9;
 }
 
-.Top{
+.Header-Content h1 {
+    padding: 5px 0 20px 0;
+}
+
+.Top {
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -29,7 +33,7 @@ ul {
     list-style-type: none;
 }
 
-ul li a{
+ul li a {
     display: inline-block;
     padding: 0 15px;
     text-decoration: none;
@@ -37,15 +41,39 @@ ul li a{
     font-size: large;
 }
 
-.Header-Content{
+.Header-Content {
     display: flex;
     flex: 1;
 }
-/*.Header-Text{*/
-/*    display: flex;*/
-/*    border: 1px solid black;*/
-/*    width: 50%;*/
-/*}*/
-/*.Placeholder-Image{*/
-/*    display: flex;*/
-/*}*/
+
+.Info{
+    background-color: #DCF2F1;
+    padding-bottom: 3%;
+}
+.Info h1 {
+    padding: 40px;
+    text-align: center;
+}
+
+.Info-Images {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+
+.Info-Images > div {
+    width: 150px;
+}
+
+.Info-Images img {
+    border-radius: 15px;
+    border: solid 1px lightblue;
+}
+
+.Quote{
+    background-color: black;
+    text-align: center;
+    padding: 3%;
+    font-size: x-large;
+    color: white;
+}
