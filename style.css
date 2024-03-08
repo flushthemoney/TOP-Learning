@@ -1,7 +1,48 @@
-.color {
-  color: red;
+body {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #121212;
+  color: white;
 }
 
-div {
-  border: solid black 2px;
+h1,
+h4 {
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 25%;
+  padding: 1rem;
+  background-color: #282828;
+  justify-content: center;
+}
+
+.subtext {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.listbox {
+  display: flex;
+  flex-basis: 100%;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.shoppinglist {
+  display: flex;
+  flex-basis: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.listitem {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  flex-basis: 100%;
+  gap: 5px;
 }

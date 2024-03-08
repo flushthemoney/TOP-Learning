@@ -1,1 +1,0 @@
-checkboxi = document.querySelector(".mybox");
