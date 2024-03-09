@@ -52,3 +52,11 @@ h4 {
 a {
   color: hotpink;
 }
+
+button {
+  border-radius: 10px;
+  background-color: white;
+  font: inherit;
+  font-weight: 500;
+  border-width: 0.1rem;
+}
