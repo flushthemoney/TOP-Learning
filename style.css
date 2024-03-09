@@ -13,10 +13,12 @@ h4 {
 .main {
   display: flex;
   flex-wrap: wrap;
+  border-radius: 25px;
   margin: 5% 25%;
   padding: 1rem;
   background-color: #282828;
   justify-content: center;
+  border: grey solid 1px;
 }
 
 .subtext {
@@ -45,4 +47,8 @@ h4 {
   width: 600px;
   flex-basis: 100%;
   gap: 5px;
+}
+
+a {
+  color: hotpink;
 }
