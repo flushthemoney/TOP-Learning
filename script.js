@@ -1,4 +1,14 @@
-const myarr = [1, 3, 4, 5, 6, 667];
+const input1 = document.querySelector("#operand1");
+const input2 = document.querySelector("#operand2");
 
-let x = myarr.reduce((total, currentNumber) => total + currentNumber, 0);
-alert(x);
+function add(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
