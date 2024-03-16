@@ -2,9 +2,25 @@
 
 body {
   font-family: Manrope, sans-serif;
+  background-color: #222831;
+  font-weight: 500;
 }
 
 button,
 select {
   font-family: inherit;
+  font-weight: 500;
+}
+
+#main {
+  margin: auto;
+  border: black solid 1px;
+  padding: 50px;
+  border-radius: 30px;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  background-color: #eeeeee;
 }
