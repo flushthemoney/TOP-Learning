@@ -7,36 +7,33 @@
 
 body {
   font-family: "DM Sans";
-  background-color: #ffefef;
 }
 
 .navbar {
-  background-color: black;
   display: flex;
-  justify-content: space-between;
-  padding: 10px 30px;
+  padding: 0;
   align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #ffefef;
 }
 
-.navbar a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: white;
-  font-weight: 200;
-  padding: 0 10px;
+ul > li {
+  list-style-type: none;
+  display: inline;
+  margin: 0.5rem;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar {
-    padding: 10px 10px;
-  }
-  .navbar .left {
-    padding: 0 5px;
-  }
+.navbar img {
+  max-width: 3rem;
 }
 
-@media screen and (max-width: 400px) {
-  .navbar {
-    flex-direction: column;
-  }
+.navbar .left {
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.navbar .right {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
