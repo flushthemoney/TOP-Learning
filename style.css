@@ -7,33 +7,26 @@
 
 body {
   font-family: "DM Sans";
-}
-
-.navbar {
   display: flex;
-  padding: 0;
+  justify-content: center;
+  height: 100vh;
   align-items: center;
-  padding: 0.5rem 1rem;
-  background-color: #ffefef;
 }
 
-ul > li {
-  list-style-type: none;
-  display: inline;
-  margin: 0.5rem;
+.loadingbox {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-top: 2px solid white;
+  animation: 1s linear infinite spin;
 }
 
-.navbar img {
-  max-width: 3rem;
-}
-
-.navbar .left {
-  margin-right: auto;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.navbar .right {
-  font-size: 1.5rem;
-  font-weight: 400;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
