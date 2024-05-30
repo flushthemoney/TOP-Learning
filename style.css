@@ -8,18 +8,20 @@
 body {
   font-family: "DM Sans";
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
   align-items: center;
+  background-color: black;
 }
 
 .loadingbox {
-  border: 2px solid black;
+  border: 2px solid white;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border-top: 2px solid white;
-  animation: 1s linear infinite spin;
+  border-top: 2px solid black;
+  animation: 1s ease-out infinite spin;
 }
 
 @keyframes spin {
@@ -29,4 +31,13 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.loadingbox {
+  margin: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  color: white;
 }
