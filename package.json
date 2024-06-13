@@ -1,0 +1,28 @@
+{
+  "name": "top-learning",
+  "version": "1.0.0",
+  "description": "This is my Full-Stack learning repo, it tracks the progress I've made on multiple platforms including TheOdinProject & FullStackOpen.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flushthemoney/TOP-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flushthemoney/TOP-Learning/issues"
+  },
+  "homepage": "https://github.com/flushthemoney/TOP-Learning#readme",
+  "devDependencies": {
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

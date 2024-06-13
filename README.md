@@ -1,6 +1,6 @@
 ## About
 
-This is my Full-Stack learning repo, it tracks the progress I've made on multiple platforms including TheOdinProject & FullStackOpen. 
+This is my Full-Stack learning repo, it tracks the progress I've made on multiple platforms including TheOdinProject & FullStackOpen.
 
 The mini projects made throughout my journey can be seen by visiting the commit history of the repository.
 
@@ -14,6 +14,7 @@ These following languages, frameworks & libraries were used:
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 
 ## Contact Me
 
